@@ -1,4 +1,4 @@
-package decorator
+package decoratorCoffe
 
 type Mocha struct {
 	beverage Beverage

@@ -1,4 +1,4 @@
-package decorator
+package decoratorCoffe
 
 type CondimentDecorator interface {
 	GetDescription() string

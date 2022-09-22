@@ -1,6 +1,7 @@
 package decorator
 
-type Beverage interface {
+type Car interface {
+	GetClass() string
 	GetDescription() string
 	Cost() float64
 }

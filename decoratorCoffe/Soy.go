@@ -1,4 +1,4 @@
-package decorator
+package decoratorCoffe
 
 type Soy struct {
 	beverage    Beverage
