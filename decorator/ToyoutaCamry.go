@@ -1,10 +1,7 @@
 package decorator
 
 type ToyoutaCamry struct {
-}
-
-func (t *ToyoutaCamry) GetClass() string {
-	return "sedan"
+	Sedan
 }
 
 func (t *ToyoutaCamry) GetDescription() string {

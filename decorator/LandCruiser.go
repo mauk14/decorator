@@ -1,10 +1,7 @@
 package decorator
 
 type ToyoutaLandCruiser struct {
-}
-
-func (t *ToyoutaLandCruiser) GetClass() string {
-	return "crossover"
+	Crossover
 }
 
 func (t *ToyoutaLandCruiser) GetDescription() string {
